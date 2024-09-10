@@ -7,3 +7,6 @@ npm install
 npm run dev
 
 Fill .env details with your database credentials.
+
+
+Implement  RestApis to add users and create assignments
