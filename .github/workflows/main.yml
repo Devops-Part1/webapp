@@ -35,7 +35,7 @@ jobs:
       - name: Create Database
         run: |
           # sudo mysql --user=${{ secrets.MYSQL_USERNAME }} --password=${{ secrets.MYSQL_PASSWORD }} -e "create database ${{ secrets.DATABASE_NAME }}"
-          sudo mysql --user='root' --password=Writecode@123 -e "create database 'cyse6225"
+          sudo mysql --user='root' --password=Writecode@123 -e "create database 'cyse6225'"
 
       - name: Install Dependencies
         run: |
